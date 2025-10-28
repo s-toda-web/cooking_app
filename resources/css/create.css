@@ -1,0 +1,42 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    height: 300px;
+    background-color: bisque; 
+    border: 1px solid gray;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.form-contents {
+    width: 253px;
+    margin: 0 auto;
+    padding-top: 65px;  
+}
+
+.input-title {
+    margin-bottom: 10px;
+}
+
+.input-file {
+    margin-bottom: 10px;
+}
+
+.select-type{
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}

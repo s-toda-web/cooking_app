@@ -1,0 +1,49 @@
+h1 {
+    color: #9057FF;
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    background-color: #D0B0FF; 
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.form-contents {
+    width: 253px;
+    margin: 0 auto;
+    padding-top: 50px; 
+}
+
+.input-title {
+    margin-bottom: 10px;
+}
+
+.select-type {
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.file {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
