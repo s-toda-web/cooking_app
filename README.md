@@ -40,10 +40,18 @@
     ```
 
 5.  **データベースをセットアップします。**
-    このプロジェクトはデフォルトでSQLiteを使用します。`database`ディレクトリに`database.sqlite`ファイルを作成します。
-    ```bash
-    touch database/database.sqlite
+    `.env`ファイルを開き、データベース接続設定をPostgreSQL用に以下のように変更します。
+
+    ```dotenv
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_user
+    DB_PASSWORD=your_database_password
     ```
+
+    **注意:** 上記の`your_database_name`, `your_database_user`, `your_database_password`は、ご自身のPostgreSQL環境に合わせて適切な値に置き換えてください。また、指定したデータベースがPostgreSQLサーバー上に存在することを確認してください。
 
 6.  **データベースマイグレーションを実行します。**
     ```bash
