@@ -44,4 +44,9 @@
             </x-primary-button>
         </div>
     </form>
+    <div class="mb-4 text-sm text-gray-600">
+            <strong>【テスト用アカウント】</strong><br>
+            メールアドレス：<code>test@test.jp</code><br>
+            パスワード：<code>test1234</code>
+    </div>
 </x-guest-layout>
